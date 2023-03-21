@@ -129,6 +129,17 @@ int main(){
             flag = 0;
         }
     }
+    
+    if (w=='O'){
+        printf("\n %s WINS !!!",name1);
+    }
+    else if (w=='X'){
+        printf("\n %s WINS !!!",name2);
+    }
+    
+    else if (w == 'd'){
+        printf("ITS A DRAW !!!");
+    }
         
     return 0;
 }
